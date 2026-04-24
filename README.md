@@ -115,16 +115,6 @@ GET /api/otp/generate?digits=6
 
 ---
 
-## Application Screenshots
-
-**Initial Screen**
-(Add screenshots here)
-
-**OTP Generated with Timer**
-(Add screenshots here)
-
----
-
 ## Notes
 
 This project was developed as part of an assignment and for learning purposes.
