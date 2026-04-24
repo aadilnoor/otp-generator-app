@@ -1,0 +1,28 @@
+<div class="otp-page">
+
+  <div class="otp-card">
+
+    <h2 class="title">OTP Generator</h2>
+
+    <div class="controls">
+      <label for="digits">OTP Length</label>
+
+      <select id="digits" [(ngModel)]="selectedDigits">
+        <option [value]="3">3 Digits</option>
+        <option [value]="6">6 Digits</option>
+      </select>
+
+      <button (click)="generateOtp()">Generate</button>
+    </div>
+
+    <div class="otp-box" *ngIf="otp">
+      {{ otp }}
+    </div>
+
+    <p class="timer" *ngIf="otp">
+      Expires in <strong>{{ timeLeft }}</strong> seconds
+    </p>
+
+  </div>
+
+</div>

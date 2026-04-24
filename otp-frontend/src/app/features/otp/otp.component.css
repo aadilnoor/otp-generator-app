@@ -1,0 +1,76 @@
+/* Full page center */
+.otp-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f6f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Card style */
+.otp-card {
+  background: #ffffff;
+  padding: 30px 40px;
+  width: 380px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Title */
+.title {
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+/* Controls section */
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Select */
+select {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Button */
+button {
+  padding: 6px 14px;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e4fd1;
+}
+
+/* OTP box */
+.otp-box {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  color: #111;
+  margin: 15px 0;
+}
+
+/* Timer text */
+.timer {
+  font-size: 14px;
+  color: #666;
+}

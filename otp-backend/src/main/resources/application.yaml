@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: assignment-otp
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/otp_db
+    username: root
+    password: MYSQL
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8090
